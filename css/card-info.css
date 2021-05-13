@@ -1,0 +1,25 @@
+.card-info {
+  font: var(--poppins);
+  text-align: center;
+  max-inline-size: 900px;
+  margin: auto;
+  margin-block-start: 15px;
+}
+
+.card-info p:first-child {
+  margin: 0;
+  padding-block-start: 40px;
+  padding-block-end: 24px;
+}
+
+.card-info p:nth-child(2) {
+  font: var(--headline5);
+  padding-block-end: 24px;
+  margin: 0;
+}
+
+.card-arrow {
+  margin-block-start: 24px;
+  margin-block-end: 40px;
+  display: block;
+}
